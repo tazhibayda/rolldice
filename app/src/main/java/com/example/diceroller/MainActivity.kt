@@ -17,4 +17,7 @@ class MainActivity : AppCompatActivity() {
             toast.show()
         }
     }
+    fun getDice(): Int{
+        return (0..6).random()
+    }
 }
